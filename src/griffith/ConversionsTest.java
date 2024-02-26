@@ -93,6 +93,11 @@ class ConversionsTest {
 		fail("Not yet implemented");
 	}
 	
+	@Test
+	void lowerCaseToUpperCaseConversionTest3() {
+		fail("Not yet implemented");
+	}
+	
 	
 	
 	
