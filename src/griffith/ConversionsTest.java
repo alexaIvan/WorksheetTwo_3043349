@@ -25,7 +25,16 @@ class ConversionsTest {
 
 	@Test
 	void celsiusToFahrenheitConversionTest2() {
-		fail("Not yet implemented");
+		// declare an object of Conversions class and name it conversions
+		Conversions conversions = new Conversions();
+		// declare double variable called celsius
+		double celsius = 38;
+		// declare the actual variable that needs to be compared by calling the method
+		double actual = conversions.celsiusToFahrenheit(celsius);
+		// declare a random value for the variable that needs to be compared
+		double unexpected = 102.80;
+		// call the junit test and assert that the two values are not equal
+		assertNotEquals(unexpected, actual);
 	}
 
 	@Test
