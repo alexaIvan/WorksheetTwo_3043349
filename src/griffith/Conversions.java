@@ -24,8 +24,9 @@ public class Conversions {
 		return kilometer * 0.621371;
 	}
 	
+	// switches all uppercase values to lower case values
 	public String upperCaseToLowerCase(String upperCase) {
-		
+		return upperCase.toLowerCase();
 	}
 	
 	public String lowerCaseToUpperCase(String lowerCase) {
