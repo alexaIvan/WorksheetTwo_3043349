@@ -29,8 +29,9 @@ public class Conversions {
 		return upperCase.toLowerCase();
 	}
 	
+	// switches all lower case values to upper case values 
 	public String lowerCaseToUpperCase(String lowerCase) {
-		
+		return lowerCase.toUpperCase();
 	}
 
 }
