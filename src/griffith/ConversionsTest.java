@@ -27,5 +27,38 @@ class ConversionsTest {
 	void fahrenheitToCelsiusConversionTest1() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	void fahrenheitToCelsiusConversionTest2() {
+		fail("Not yet implemented");
+	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
