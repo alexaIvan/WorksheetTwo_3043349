@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class ConversionsTest {
 
 	@Test
-	void test() {
+	void celsiusToFahrenheitConversionTest1() {
 		fail("Not yet implemented");
 	}
 
