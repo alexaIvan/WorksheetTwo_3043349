@@ -9,9 +9,9 @@ public class Conversions {
 		return (9.0 / 5) * celsius + 32;
 	}
 	
-	
+	// conversion of fahrenheit degrees to celsius degrees
 	public double fahrenheitToCelsius(double fahrenheit) {
-	
+		return (5.0/ 9 ) * (fahrenheit - 32 );
 	}
 	
 	public double milesToKilometer(double miles) {
