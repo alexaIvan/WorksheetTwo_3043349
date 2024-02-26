@@ -1,5 +1,7 @@
 package griffith;
-
+/*Student name: Alexandra Ivan
+ * Student number: 3043349
+ */
 public class Conversions {
 	
 	public double celsiusToFahrenheit(double celsius) {
