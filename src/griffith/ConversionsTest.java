@@ -12,5 +12,10 @@ class ConversionsTest {
 	void celsiusToFahrenheitConversionTest1() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	void celsiusToFahrenheitConversionTest2() {
+		fail("Not yet implemented");
+	}
 
 }
