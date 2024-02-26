@@ -14,8 +14,9 @@ public class Conversions {
 		return (5.0/ 9 ) * (fahrenheit - 32 );
 	}
 	
+	// transforms miles to kilometers
 	public double milesToKilometer(double miles) {
-		
+		return miles * 1.60934;
 	}
 	
 	public double kilometerToMiles(double kilometer) {
