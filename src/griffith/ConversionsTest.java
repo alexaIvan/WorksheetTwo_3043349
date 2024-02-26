@@ -38,6 +38,10 @@ class ConversionsTest {
 		fail("Not yet implemented");
 	}
 
+	@Test
+	void milesToKilometerConversionTest1() {
+		fail("Not yet implemented");
+	}
 	
 	
 	
