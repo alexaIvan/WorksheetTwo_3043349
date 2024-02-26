@@ -4,8 +4,9 @@ package griffith;
  */
 public class Conversions {
 	
+	//conversion of celsius degrees to fahrenheit degrees
 	public double celsiusToFahrenheit(double celsius) {
-		
+		return (9.0 / 5) * celsius + 32;
 	}
 	
 	
