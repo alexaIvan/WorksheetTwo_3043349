@@ -42,20 +42,29 @@ class ConversionsTest {
 		// declare two object of Conversions class and name it conversions1 and conversions2
 		Conversions conversions1 = new Conversions();
 		Conversions conversions2 = new Conversions();
-		// declare double variable called celsius
+		// declare double variable called celsius1
 		double celsius1 = 38;
-		// declare double variable called celsius
+		// declare double variable called celsius2
 		double celsius2 = 37.6;
 		// declare the actual variables that needs to be compared by calling the method 
         double value1 = conversions1.celsiusToFahrenheit(celsius1);
         double value2 = conversions2.celsiusToFahrenheit(celsius2);
         // call junit and assert that the two values are not equal 
-        assertFalse(value1 == value2, "value 1 is equal to value 2");	
+        assertFalse(value1 == value2, "value 1 is not equal to value 2");	
 	}
 
 	@Test
 	void fahrenheitToCelsiusConversionTest1() {
-		fail("Not yet implemented");
+		// declare an object of Conversions class and name it conversions
+		Conversions conversions = new Conversions();
+		// declare double variable called fahrenheit
+		double fahrenheit = 32;
+		// declare the actual variable that needs to be compared by calling the method
+		double actual = conversions.fahrenheitToCelsius(fahrenheit);
+		// declacre the actual value of the variable that needs to be compared
+		double expected = 0;
+		// call the junit test and compare that the two values are equal
+		assertEquals(expected, actual);
 	}
 
 	@Test
