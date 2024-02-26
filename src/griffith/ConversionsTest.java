@@ -58,6 +58,11 @@ class ConversionsTest {
 		fail("Not yet implemented");
 	}
 	
+	@Test
+	void kilometerToMilesConversionTest2() {
+		fail("Not yet implemented");
+	}
+	
 	
 	
 	
