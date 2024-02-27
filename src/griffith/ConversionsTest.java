@@ -127,18 +127,19 @@ class ConversionsTest {
 
 	@Test
 	void milesToKilometerConversionTest3() {
-		// declare two object of Conversions class and name it conversions1 and conversions2
-				Conversions conversions1 = new Conversions();
-				Conversions conversions2 = new Conversions();
-				// declare double variable called miles1
-				double miles1 = 56;
-				// declare double variable called miles2
-				double miles2 = 32;
-				// declare the actual variables that needs to be compared by calling the method 
-		        double value1 = conversions1.milesToKilometer(miles1);
-		        double value2 = conversions2.milesToKilometer(miles2);
-		        // call junit and assert that the two values are not equal 
-		        assertFalse(value1 == value2, "value 1 is not equal to value 2");	
+		// declare two object of Conversions class and name it conversions1 and
+		// conversions2
+		Conversions conversions1 = new Conversions();
+		Conversions conversions2 = new Conversions();
+		// declare double variable called miles1
+		double miles1 = 56;
+		// declare double variable called miles2
+		double miles2 = 32;
+		// declare the actual variables that needs to be compared by calling the method
+		double value1 = conversions1.milesToKilometer(miles1);
+		double value2 = conversions2.milesToKilometer(miles2);
+		// call junit and assert that the two values are not equal
+		assertFalse(value1 == value2, "value 1 is not equal to value 2");
 	}
 
 	@Test
@@ -171,7 +172,19 @@ class ConversionsTest {
 
 	@Test
 	void kilometerToMilesConversionTest3() {
-		fail("Not yet implemented");
+		// declare two object of Conversions class and name it conversions1 and
+		// conversions2
+		Conversions conversions1 = new Conversions();
+		Conversions conversions2 = new Conversions();
+		// declare double variable called kilometer1
+		double kilometer1 = 45;
+		// declare double variable called kilometer2
+		double kilometer2 = 35;
+		// declare the actual variables that needs to be compared by calling the method
+		double value1 = conversions1.kilometerToMiles(kilometer1);
+		double value2 = conversions2.kilometerToMiles(kilometer2);
+		// call junit and assert that the two values are not equal
+		assertFalse(value1 == value2, "value 1 is not equal to value 2");
 	}
 
 	@Test
