@@ -143,7 +143,16 @@ class ConversionsTest {
 
 	@Test
 	void kilometerToMilesConversionTest1() {
-		fail("Not yet implemented");
+		// declare an object of Conversions class and name it conversions
+		Conversions conversions = new Conversions();
+		// declare double variable called kilometer
+		double kilometer = 32;
+		// declare the actual variable that needs to be compared by calling the method
+		double actual = conversions.kilometerToMiles(kilometer);
+		// declacre the actual value of the variable that needs to be compared
+		double expected = 19.883872;
+		// call the junit test and compare that the two values are equal
+		assertEquals(expected, actual);
 	}
 
 	@Test
