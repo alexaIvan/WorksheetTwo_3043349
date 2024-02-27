@@ -262,7 +262,19 @@ class ConversionsTest {
 
 	@Test
 	void lowerCaseToUpperCaseConversionTest3() {
-		fail("Not yet implemented");
+		// declare two object of Conversions class and name it conversions1 and
+		// conversions2
+		Conversions conversions1 = new Conversions();
+		Conversions conversions2 = new Conversions();
+		// declare String variable called lowercase1
+		String lowercase1 = "apples";
+		// declare String variable called lowercase2
+		String lowercase2 = "bananas";
+		// declare the actual variables that needs to be compared by calling the method
+		String value1 = conversions1.lowerCaseToUpperCase(lowercase1);
+		String value2 = conversions2.lowerCaseToUpperCase(lowercase2);
+		// call junit and assert that the two values are not equal
+		assertFalse(value1 == value2, "value 1 is not equal to value 2");
 	}
 	
 	
