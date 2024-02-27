@@ -189,7 +189,16 @@ class ConversionsTest {
 
 	@Test
 	void upperCaseToLowerCaseConversionTest1() {
-		fail("Not yet implemented");
+		// declare an object of Conversions class and name it conversions
+		Conversions conversions = new Conversions();
+		// declare String variable called uppercase
+		String uppercase = "HELLO";
+		// declare the actual variable that needs to be compared by calling the method
+		String actual = conversions.upperCaseToLowerCase(uppercase);
+		// declacre the actual value of the variable that needs to be compared
+		String expected = "hello";
+		// call the junit test and compare that the two values are equal
+		assertEquals(expected, actual);
 	}
 
 	@Test
